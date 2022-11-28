@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheTemptation", "TheTemptation\TheTemptation.csproj", "{CA4841D8-1751-486A-BAA5-97D6396544E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{63E22498-4D9D-40F9-9342-6997131B0532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{326A01E5-30AE-4310-A98F-1D716038AA80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,10 @@ Global
 		{CA4841D8-1751-486A-BAA5-97D6396544E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA4841D8-1751-486A-BAA5-97D6396544E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA4841D8-1751-486A-BAA5-97D6396544E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326A01E5-30AE-4310-A98F-1D716038AA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326A01E5-30AE-4310-A98F-1D716038AA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326A01E5-30AE-4310-A98F-1D716038AA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326A01E5-30AE-4310-A98F-1D716038AA80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
