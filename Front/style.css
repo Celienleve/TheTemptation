@@ -127,6 +127,12 @@ body {
     margin-top: 15px;
 }
 
+.valider:hover { 
+    background-color: #8a4a00;
+    color: white;
+    cursor: pointer;
+}
+
 .lblValider {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
