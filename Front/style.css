@@ -362,8 +362,8 @@ body {
     }
 
     .grille {
-        width: 300px;
-        height: 275px;
+        width: 400px;
+        height: 360px;
         margin: auto;
     }
 
@@ -374,14 +374,87 @@ body {
         background-color: #ffffff;
         font-family: 'Montserrat', sans-serif;
         font-size: 17px;
-        margin-top: 8px;
-        margin-left: 8px;
+        margin-top: 12px;
+        margin-left: 20px;
     }
 
-    .input:hover {
+    input:hover {
         color: #FFFFFF;
         background-color: #FF8A00;
         cursor: pointer;
+    }
+
+    .validerGrille {
+        background-color: #FF8A00;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 5px;
+        display: flex;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+
+    .btnGrille {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .resetGrille {
+        background-color: #FF8A00;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 5px;
+        display: flex;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+
+    .validerGrille:hover {
+        background-color: #8a4a00;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .resetGrille:hover{
+        background-color: #8a4a00;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .lblresetGrille {
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+    }
+
+    .lblValiderGrille {
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+    }
+
+    .imgForm {
+        width: 75px;
+        height: 75px;
+        background-color: #FF8A00;
+        position: absolute;
+        border-radius: 50px;
+        bottom: 45px; left: 20px;
+    }
+
+    .imgRetour {
+        width: 75px;
+        height: 75px;
     }
 
 }
