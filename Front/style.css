@@ -11,7 +11,7 @@
 
 body {
     background: #12263A;
-} 
+}
 
 @media (min-width: 500px) {
 
@@ -23,17 +23,17 @@ body {
         color: white;
         font-family: 'Montserrat', sans-serif;
     }
-    
+
     .titre {
         margin-left: 0,5%;
         font-size: 30px;
     }
-    
+
     .logo {
         width: 120px;
         height: 120px;
     }
-    
+
     .TitreConteur {
         font-family: 'Montserrat', sans-serif;
         display: flex;
@@ -43,7 +43,7 @@ body {
         color: #FFFFFF;
         font-size: 25px;
     }
-    
+
     .formeCompteur {
         border: solid;
         border-color: #FF8A00;
@@ -56,7 +56,7 @@ body {
         margin: auto;
         margin-bottom: 15px;
     }
-    
+
     .compteur {
         margin-left: auto;
         margin-right: auto;
@@ -64,22 +64,24 @@ body {
         font-family: 'Roboto Mono', sans-serif;
         font-size: 70px;
     }
-    
-    .btnJouer { 
+
+    .btnJouer {
         width: 222px;
         height: 35px;
         background-color: #FF8A00;
         border-radius: 20px;
         margin: auto;
         display: flex;
+        text-decoration: none;
     }
-    
-    .btnJouer:hover { 
-        background-color: #8a4a00;
-        color: white;
-        cursor: pointer;
-    }
-    
+
+        .btnJouer:hover {
+            background-color: #8a4a00;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
     .lblJouer {
         margin-left: auto;
         margin-right: auto;
@@ -89,7 +91,7 @@ body {
         text-align: center;
         margin: auto;
     }
-    
+
     .titreGuid {
         color: #FFFFFF;
         font-family: 'Ruda', sans-serif;
@@ -98,7 +100,7 @@ body {
         margin-top: 45px;
         margin-bottom: 0.5%;
     }
-    
+
     .formGuid {
         width: 330px;
         height: 30px;
@@ -109,7 +111,7 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .codeGuid {
         width: 300px;
         font-family: 'Ruda', sans-serif;
@@ -117,7 +119,7 @@ body {
         font-size: 15px;
         text-align: center;
     }
-    
+
     .valider {
         background-color: #FF8A00;
         width: 85px;
@@ -126,14 +128,16 @@ body {
         margin: auto;
         display: flex;
         margin-top: 8px;
+        text-decoration: none;
     }
-    
-    .valider:hover { 
-        background-color: #8a4a00;
-        color: white;
-        cursor: pointer;
-    }
-    
+
+        .valider:hover {
+            background-color: #8a4a00;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
     .lblValider {
         color: #FFFFFF;
         font-family: 'Montserrat', sans-serif;
@@ -142,7 +146,7 @@ body {
         margin-right: auto;
         margin: auto;
     }
-    
+
     .footer {
         display: flex;
         color: #FFFFFF;
@@ -150,23 +154,23 @@ body {
         height: 30px;
         background-color: #001020;
         position: fixed;
-        bottom:0;
+        bottom: 0;
     }
-    
-    .footer p{
-        margin: auto;
-        font-family: 'Ruda', sans-serif;
-        font-size: 12px;
-    }
-    
+
+        .footer p {
+            margin: auto;
+            font-family: 'Ruda', sans-serif;
+            font-size: 12px;
+        }
+
     .Afooter {
         color: #FFFFFF;
         text-decoration: none;
     }
-    
-    .Afooter:hover {
-        text-decoration: underline;
-    }
+
+        .Afooter:hover {
+            text-decoration: underline;
+        }
 }
 
 
@@ -180,17 +184,17 @@ body {
         color: white;
         font-family: 'Montserrat', sans-serif;
     }
-    
+
     .titre {
         margin-left: 0,5%;
         font-size: 50px;
     }
-    
+
     .logo {
         width: 160px;
         height: 160px;
     }
-    
+
     .TitreConteur {
         font-family: 'Montserrat', sans-serif;
         display: flex;
@@ -201,7 +205,7 @@ body {
         color: #FFFFFF;
         font-size: 35px;
     }
-    
+
     .formeCompteur {
         border: solid;
         border-color: #FF8A00;
@@ -214,7 +218,7 @@ body {
         margin: auto;
         margin-bottom: 30px;
     }
-    
+
     .compteur {
         margin-left: auto;
         margin-right: auto;
@@ -222,8 +226,8 @@ body {
         font-family: 'Roboto Mono', sans-serif;
         font-size: 110px;
     }
-    
-    .btnJouer { 
+
+    .btnJouer {
         width: 333px;
         height: 55px;
         background-color: #FF8A00;
@@ -231,13 +235,13 @@ body {
         margin: auto;
         display: flex;
     }
-    
-    .btnJouer:hover { 
-        background-color: #8a4a00;
-        color: white;
-        cursor: pointer;
-    }
-    
+
+        .btnJouer:hover {
+            background-color: #8a4a00;
+            color: white;
+            cursor: pointer;
+        }
+
     .lblJouer {
         margin-left: auto;
         margin-right: auto;
@@ -247,7 +251,7 @@ body {
         text-align: center;
         margin: auto;
     }
-    
+
     .titreGuid {
         color: #FFFFFF;
         font-family: 'Ruda', sans-serif;
@@ -256,7 +260,7 @@ body {
         margin-top: 90px;
         margin-bottom: 0.5%;
     }
-    
+
     .formGuid {
         width: 682px;
         height: 40px;
@@ -267,7 +271,7 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .codeGuid {
         width: 600px;
         font-family: 'Ruda', sans-serif;
@@ -275,7 +279,7 @@ body {
         font-size: 20px;
         text-align: center;
     }
-    
+
     .valider {
         background-color: #FF8A00;
         width: 150px;
@@ -284,14 +288,16 @@ body {
         margin: auto;
         display: flex;
         margin-top: 15px;
+        text-decoration: none;
     }
-    
-    .valider:hover { 
-        background-color: #8a4a00;
-        color: white;
-        cursor: pointer;
-    }
-    
+
+        .valider:hover {
+            background-color: #8a4a00;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
     .lblValider {
         color: #FFFFFF;
         font-family: 'Montserrat', sans-serif;
@@ -300,7 +306,7 @@ body {
         margin-right: auto;
         margin: auto;
     }
-    
+
     .footer {
         display: flex;
         color: #FFFFFF;
@@ -308,21 +314,21 @@ body {
         height: 40px;
         background-color: #001020;
         position: fixed;
-        bottom:0;
+        bottom: 0;
     }
-    
-    .footer p{
-        margin: auto;
-        font-family: 'Ruda', sans-serif;
-    }
-    
+
+        .footer p {
+            margin: auto;
+            font-family: 'Ruda', sans-serif;
+        }
+
     .Afooter {
         color: #FFFFFF;
         text-decoration: none;
     }
-    
-    .Afooter:hover {
-        text-decoration: underline;
-    }
+
+        .Afooter:hover {
+            text-decoration: underline;
+        }
 }
 
