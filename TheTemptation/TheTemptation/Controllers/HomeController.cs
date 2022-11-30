@@ -18,7 +18,7 @@ namespace TheTemptation.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Jeu()
         {
             return View();
         }
