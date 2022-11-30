@@ -332,3 +332,56 @@ body {
         }
 }
 
+
+/*Parti jeu.html*/
+
+@media (min-width: 500px) {
+
+    .formeCompteur_Jeu {
+        border: solid;
+        border-color: #FF8A00;
+        border-radius: 17px;
+        border-width: 6px;
+        display: flex;
+        align-items: center;
+        width: 150px;
+        height: 80px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: 10px;
+        position: absolute;
+        top: 15px; right: 10px;
+    }
+
+    .compteur_Jeu {
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFFFFF;
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 30px;
+    }
+
+    .grille {
+        width: 300px;
+        height: 275px;
+        margin: auto;
+    }
+
+    input {
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+        background-color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    .input:hover {
+        color: #FFFFFF;
+        background-color: #FF8A00;
+        cursor: pointer;
+    }
+
+}
