@@ -13,6 +13,7 @@ body {
     background: #12263A;
 }
 
+
 @media (min-width: 500px) {
 
     .top {
@@ -157,22 +158,169 @@ body {
         bottom: 0;
     }
 
-        .footer p {
-            margin: auto;
-            font-family: 'Ruda', sans-serif;
-            font-size: 12px;
-        }
+    .footer p {
+        margin: auto;
+        font-family: 'Ruda', sans-serif;
+        font-size: 12px;
+    }
 
     .Afooter {
         color: #FFFFFF;
         text-decoration: none;
     }
 
-        .Afooter:hover {
-            text-decoration: underline;
-        }
-}
+    .Afooter:hover {
+        text-decoration: underline;
+    }
 
+    /*Parti jeu.html*/
+    .formeCompteur_Jeu {
+        border: solid;
+        border-color: #FF8A00;
+        border-radius: 17px;
+        border-width: 6px;
+        display: flex;
+        align-items: center;
+        width: 150px;
+        height: 80px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: 10px;
+        position: absolute;
+        top: 15px; right: 10px;
+    }
+
+    .compteur_Jeu {
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFFFFF;
+        font-family: 'Roboto Mono', sans-serif;
+        font-size: 30px;
+    }
+
+    .grille {
+        width: 400px;
+        height: 360px;
+        margin: auto;
+    }
+
+    .NbGrille {
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+        background-color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+
+    .NbGrille:hover {
+        color: #FFFFFF;
+        background-color: #FF8A00;
+        cursor: pointer;
+    }
+
+    .validerGrille {
+        background-color: #FF8A00;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 5px;
+        display: flex;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+
+    .btnGrille {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .resetGrille {
+        background-color: #FF8A00;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 5px;
+        display: flex;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+
+    .validerGrille:hover {
+        background-color: #8a4a00;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .resetGrille:hover{
+        background-color: #8a4a00;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .lblresetGrille {
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+    }
+
+    .lblValiderGrille {
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+    }
+
+    .imgForm {
+        width: 75px;
+        height: 75px;
+        background-color: #FF8A00;
+        position: absolute;
+        border-radius: 50px;
+        bottom: 45px; left: 20px;
+    }
+
+    .imgForm:hover {
+        background-color: #8a4a00;
+    }
+
+    .imgRetour {
+        width: 75px;
+        height: 75px;
+    }
+
+    /*Parti resultat.html*/
+    .lblResult{
+        text-align: center;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        margin-top: 15px;
+    }
+
+    .FormResultat {
+        width: 600px;
+        height: 250px;
+        margin: auto;
+    }
+
+    .imgResult {
+        width: 600px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+    } 
+}
 
 @media (min-width: 1500px) {
 
@@ -330,131 +478,4 @@ body {
         .Afooter:hover {
             text-decoration: underline;
         }
-}
-
-
-/*Parti jeu.html*/
-
-@media (min-width: 500px) {
-
-    .formeCompteur_Jeu {
-        border: solid;
-        border-color: #FF8A00;
-        border-radius: 17px;
-        border-width: 6px;
-        display: flex;
-        align-items: center;
-        width: 150px;
-        height: 80px;
-        margin-bottom: 0px;
-        margin-left: auto;
-        margin-right: 10px;
-        position: absolute;
-        top: 15px; right: 10px;
-    }
-
-    .compteur_Jeu {
-        margin-left: auto;
-        margin-right: auto;
-        color: #FFFFFF;
-        font-family: 'Roboto Mono', sans-serif;
-        font-size: 30px;
-    }
-
-    .grille {
-        width: 400px;
-        height: 360px;
-        margin: auto;
-    }
-
-    input {
-        width: 30px;
-        height: 30px;
-        border-radius: 25px;
-        background-color: #ffffff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 17px;
-        margin-top: 12px;
-        margin-left: 20px;
-    }
-
-    input:hover {
-        color: #FFFFFF;
-        background-color: #FF8A00;
-        cursor: pointer;
-    }
-
-    .validerGrille {
-        background-color: #FF8A00;
-        width: 100px;
-        height: 30px;
-        border-radius: 10px;
-        margin-left: 5px;
-        display: flex;
-        margin-top: 20px;
-        text-decoration: none;
-    }
-
-    .btnGrille {
-        display:flex;
-        justify-content: space-around;
-    }
-
-    .resetGrille {
-        background-color: #FF8A00;
-        width: 100px;
-        height: 30px;
-        border-radius: 10px;
-        margin-left: 5px;
-        display: flex;
-        margin-top: 20px;
-        text-decoration: none;
-    }
-
-    .validerGrille:hover {
-        background-color: #8a4a00;
-        color: white;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    .resetGrille:hover{
-        background-color: #8a4a00;
-        color: white;
-        cursor: pointer;
-        text-decoration: none;
-    }
-
-    .lblresetGrille {
-        color: #FFFFFF;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        margin-left: auto;
-        margin-right: auto;
-        margin: auto;
-    }
-
-    .lblValiderGrille {
-        color: #FFFFFF;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        margin-left: auto;
-        margin-right: auto;
-        margin: auto;
-    }
-
-    .imgForm {
-        width: 75px;
-        height: 75px;
-        background-color: #FF8A00;
-        position: absolute;
-        border-radius: 50px;
-        bottom: 45px; left: 20px;
-    }
-
-    .imgRetour {
-        width: 75px;
-        height: 75px;
-    }
-
 }
