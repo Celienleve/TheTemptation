@@ -2,15 +2,17 @@
 	ViewData["Title"] = "Home Page";
 }
 
+@using (Html.BeginForm("Jeu", "Home", FormMethod.Post)) 
 <main>
     <div class="formeCompteur_Jeu">
         <p class="compteur_Jeu">04:36</p>
     </div>
 
+    <form method="post" asp-action="Reception">
     <div class="grille">
         <div class="grilleLine">
-            <input class="NbGrille" type="button" value="1" id="1">
-            <input class="NbGrille" type="button" value="2" id="2">
+            <input class="NbGrille" type="button" value="1" id="1" asp-for="one">
+            <input class="NbGrille" type="button" value="2" id="2" asp-for="two">
             <input class="NbGrille" type="button" value="3" id="3">
             <input class="NbGrille" type="button" value="4" id="4">
             <input class="NbGrille" type="button" value="5" id="5">
@@ -72,6 +74,8 @@
             <input class="NbGrille" type="button" value="49" id="49">
         </div>
 
+        <input type="submit" value="submit" >
+
         <div class="btnGrille">
             <a class="resetGrille">
                 <p class="lblresetGrille">Réinitialiser</p>
@@ -81,7 +85,7 @@
             </a>
         </div>
     </div>
-
+    </form>
     <div class="imgForm">
         <a asp-controller="Home" asp-action="Index">
             <img class="imgRetour" src="~/images/fleche.png">
