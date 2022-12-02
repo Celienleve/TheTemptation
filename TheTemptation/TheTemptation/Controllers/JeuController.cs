@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DataLayer.Model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TheTemptation.Controllers
@@ -18,9 +19,16 @@ namespace TheTemptation.Controllers
         }
 
         // GET: JeuController/Create
-        public ActionResult Create()
+        public IActionResult Create()
         {
-            return View();
+            var drawT = new Draw();
+            return View(drawT);
+        }
+
+        //Test Recup Nb
+        public IActionResult CreateDraw(Draw draw)
+        {
+            return View("Jeu");
         }
 
         // POST: JeuController/Create
