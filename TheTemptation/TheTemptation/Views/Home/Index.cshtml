@@ -1,4 +1,7 @@
-﻿@{
+﻿@model IEnumerable<DataLayer.Model.Draw>
+
+
+@{
 	ViewData["Title"] = "Home Page";
 }
 
@@ -8,6 +11,13 @@
 	</div>
 	<div class="formeCompteur">
 		<p class="compteur">04:36</p>
+		@foreach(var item in Model)
+		{
+			<div>
+			@Html.DisplayFor(modelItem => item.GameWin)
+			</div>
+		}
+		
 	</div>
 	<a asp-controller="Jeu" asp-action="Jeu" class="btnJouer">
 		<p class="lblJouer">Jouer</p>

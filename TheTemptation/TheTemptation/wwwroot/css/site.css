@@ -247,10 +247,10 @@ body {
         width: 100px;
         height: 30px;
         border-radius: 10px;
-        margin-left: 5px;
-        display: flex;
         margin-top: 20px;
-        text-decoration: none;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
     }
 
     .btnGrille {
