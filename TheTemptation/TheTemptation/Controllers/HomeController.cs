@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TheTemptation.Models;
+using TheTemptation.Services;
 
 namespace TheTemptation.Controllers
 {
@@ -9,11 +10,14 @@ namespace TheTemptation.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly TheTemptationDBContext dBContext;
+        private readonly IHomeService _homeService;
 
-        public HomeController(ILogger<HomeController> logger, TheTemptationDBContext dBContext)
+
+        public HomeController(ILogger<HomeController> logger, TheTemptationDBContext dBContext, IHomeService homeService)
         {
             _logger = logger;
             this.dBContext = dBContext;
+            _homeService= homeService;
         }
 
         public IActionResult Index()
