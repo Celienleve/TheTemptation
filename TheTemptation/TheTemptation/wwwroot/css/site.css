@@ -33,6 +33,21 @@ body {
     background: #12263A;
 }
 
+.TitreResult {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.zoneContainer {
+    margin-top: 10px;
+    width: 450px;
+    height: 30px;
+    background-color: #ADADAD;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (min-width: 500px) {
 

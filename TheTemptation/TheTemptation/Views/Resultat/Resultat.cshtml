@@ -1,11 +1,37 @@
-﻿@{
+﻿@model ResultatViewModel
+
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <main>
-    <h2 class="lblResult">Votres Résultat est :</h2>
     <div class="FormResultat">
-        <img class="imgResult" src="~/images/TicketWinVierge.PNG">
+        <h3 class="TitreResult">Votre Résultat est :</h3>
+        <div class="zoneContainer">
+            <p>Vous avez gagner !</p>
+        </div>
+
+        <h3 class="TitreResult">Votre gains est :</h3>
+        <div class="zoneContainer">
+            <p>Vous avez gagné 10 000 crédit !</p>
+        </div>
+
+        <h3 class="TitreResult">Moment du tirage :</h3>
+        <div class="zoneContainer">
+            <p>05/11/2022</p><p>  à 14h02</p>
+        </div>
+
+        <h3 class="TitreResult">Votre tirage :</h3>
+        <div class="zoneContainer">
+            <p>@Model.</p>
+        </div>
+
+        <h3 class="TitreResult">Votre code :</h3>
+        <div class="zoneContainer">
+            <p>9 Z b p G h T w Q E K 2 y R Y M a i K 1 f g</p>
+        </div>
+
     </div>
 
     <div class="imgForm">

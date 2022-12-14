@@ -2,6 +2,7 @@
 {
 	public interface IHomeService
 	{
+		public string AffichageJeu();
 
 	}
 }

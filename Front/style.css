@@ -11,8 +11,24 @@
 
 body {
     background: #12263A;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.TitreResult {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.zoneContainer {
+    margin-top: 10px;
+    width: 450px;
+    height: 30px;
+    background-color: #ADADAD;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (min-width: 500px) {
 
@@ -311,6 +327,7 @@ body {
         width: 600px;
         height: 250px;
         margin: auto;
+        
     }
 
     .imgResult {

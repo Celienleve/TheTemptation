@@ -22,32 +22,19 @@ namespace TheTemptation.Controllers
 
         public IActionResult Index()
         {
-			var table = dBContext.Draws.Where(j => j.GameWin == "19,93,93,02").FirstOrDefault();
 
-			var resultat = new IndexViewModel
-			{
-				GameWin = table.GameWin
-			};
+            var resultat = new IndexViewModel
+            {
+                GameWin = _homeService.AffichageJeu()
+            };
 
-			return View(resultat);
+            return View(resultat);
         }
 
         public IActionResult Jeu()
         {
             return View();
         }
-
-		public IActionResult AffichageJeu()
-		{
-            var table = dBContext.Draws.Where(j => j.GameWin == "19,93,93,02").FirstOrDefault();
-
-            var resultat = new IndexViewModel
-            {
-                GameWin = table.GameWin
-            };
-
-            return View(resultat);
-		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

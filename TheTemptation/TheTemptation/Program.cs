@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TheTemptationDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IHomeService, HomeService>();
+builder.Services.AddScoped<IResultatService, ResultatService>();
 
 var app = builder.Build();
 
